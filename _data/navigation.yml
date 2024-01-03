@@ -1,0 +1,98 @@
+header:
+  - title: CSS
+    url: /CSS/
+  - title: HTML
+    url: /HTML/
+  - title: Java
+    url: /Java/
+  - title: Javascript
+    url: /Javascript/
+  - title: Más...
+    url: /Tecnologias/
+  - title: Blog
+    url: /Blog/
+
+css:
+  - title: CSS
+    children:
+      - title:  Elementos CSS
+        url:    /CSS/elementos-css/
+
+dom:
+  - title: DOM
+    children:
+      - title:  Elementos DOM
+        url:    /DOM/elementos-dom/
+
+google:
+  - title: Google
+
+groovy:
+  - title: Groovy
+
+html:
+  - title: HTML
+    children:
+      - title:  Elementos HTML
+        url:    /HTML/elementos-html/
+      - title:  Versiones HTML
+        url:    /HTML/versiones-html/
+
+htmldom:
+  - title: HTMLDOM
+    children:
+      - title:  Elementos HTMLDOM
+        url:    /HTMLDOM/elementos-htmldom/
+
+java:
+  - title : Java
+    children:
+      - title:  Tecnologías Java
+        url:    /Java/tecnologias-java/
+      - title:  Elementos Java
+        url:    /Java/elementos-java/
+      - title:  Versiones Java
+        url:    /Java/versiones-java/
+      - title:  Paquetes Java
+        url:    /Java/paquetes-java/
+      - title:  Módulos Java
+        url:    /Java/modulos-java/
+
+javascript:
+  - title: Javascript
+    children:
+      - title:  Elementos Javascript
+        url:    /Javascript/elementos-javascript/
+
+jquery:
+  - title: jQuery
+
+mongodb:
+  - title: MongoDB
+
+php:
+  - title: PHP
+
+python:
+  - title: Python
+    children:
+      - title:  Elementos Python
+        url:    /Python/elementos-python/
+
+svg:
+  - title: SVG
+
+vbscript:
+  - title: VBScript
+
+webapi:
+  - title: Web API
+    children:
+      - title:  Elementos WebAPI
+        url:    /WebAPI/elementos-webapi/      
+
+xslt:
+  - title: XSLT
+
+xforms:
+  - title: XForms
