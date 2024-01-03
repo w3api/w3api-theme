@@ -4,24 +4,24 @@
 echo "Inicio de la Copia"
 # Data
 echo "Copiando Data"
-cp -R tags/images.yml ../w3api/tags/images.yml
-cp -R tags/navigation.yml ../w3api/tags/navigation.yml
-cp -R tags/variables.yml ../w3api/tags/variables.yml
+cp _data/images.yml ../w3api/_data/images.yml
+cp _data/navigation.yml ../w3api/_data/navigation.yml
+cp _data/variables.yml ../w3api/_data/variables.yml
 
 echo "Copiando Includes"
-cp -R _includes ../w3api/_includes/
+cp -R _includes ../w3api/
 
 echo "Copiando Layout"
-cp -R _layouts ../w3api/_layouts/
+cp -R _layouts ../w3api/
 
 echo "Copiando Sass"
-cp -R _sass ../w3api/_sass/
+cp -R _sass ../w3api/
 
 echo "Copiando Assets"
-cp -R assets ../w3api/assets/
+cp -R assets ../w3api/
 
 echo "Copiando Tags"
-cp -R tags ../w3api/tags/
+cp -R tags ../w3api/
 
 echo "Copiando Markdowns"
 cp *.md ../w3api/
