@@ -7,9 +7,12 @@ echo "Copiando Data"
 cp _data/images.yml ../w3api/_data/images.yml
 cp _data/navigation.yml ../w3api/_data/navigation.yml
 cp _data/variables.yml ../w3api/_data/variables.yml
+cp _data/locale.yml ../w3api/_data/locale.yml
+
 cp _data/images.yml ../w3api-portal/_data/images.yml
 cp _data/navigation.yml ../w3api-portal/_data/navigation.yml
 cp _data/variables.yml ../w3api-portal/_data/variables.yml
+cp _data/locale.yml ../w3api-portal/_data/locale.yml
 
 echo "Copiando Includes"
 cp -R _includes ../w3api/
